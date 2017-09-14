@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <style>
+        .ul{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <p>One</p>
+    <p>Two</p>
+    <p>Three</p>
+    <button id='btnglow' style="width:100px; height:100px; font-size:2em">Glow</button>
+    <script>
+
+        let paragraphs = document.querySelectorAll('p')
+       
+        const paraArray = Array.from(paragraphs,p => p.textContent);
+        console.log(paraArray);
+
+        const numbers = Array.of(true,1,'bala');
+        console.log(numbers);
+        // const btn = document.querySelector('#btnglow');
+        // btn.addEventListener('click',function(){
+        //     this.style.backgroundColor = this.style.backgroundColor === 'yellow' ? "" : "yellow";
+        // })
+
+        // let fruits = ['Apple','Orange','Banana']
+        // let generateListItem = (ele) => `<li>${ele}</li>`
+        // const list = `
+        //     <ul>
+        //         ${fruits.map(generateListItem).join('')}
+        //     </ul>
+        // `
+
+        // const customer = {
+        //     name : 'Hill',
+        //     isSubcribed: false
+        // }
+
+        // const markup = `
+        //     <div>
+        //         <p>${customer.name}</p>
+        //         <p>Subscription Status : ${ customer.isSubcribed ? 'You are subscribed' : ' Please do subscribe'}</p>
+        //     </div>
+        // `
+
+        // let name = ' Mary '
+        // let language = 'ES6'
+
+        // function underline(staticStrings, ...dynamicValues) {
+        //     let html = ''
+        //     staticStrings.forEach((string, i)=>{
+        //         html += `${string} <span class='ul'>${dynamicValues[i] || ''}</span>`
+        //     });
+        //     return html;
+        // }
+
+        // const message = underline`Hello ${name}, welcome to ${language}`
+
+        // document.body.innerHTML = message;
+
+
+    </script>
+</body>
+
+</html>

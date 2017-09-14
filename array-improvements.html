@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Improvements</title>
+</head>
+<div class="lines">
+    <p>This is first line</p>
+    <p>This is second line</p>
+    <p>This is third line</p>
+    <p>This is fourth line</p>
+    <p>This is fifth line</p>
+</div>
+<body>
+<script>
+    const lines = document.querySelectorAll('.lines p');
+    console.dir(lines);
+    const linesArray = Array.from(lines, line => line.textContent);
+    console.dir(linesArray);
+    function sumAll() {
+        const nums = Array.from(arguments);
+        return nums.reduce((prev, next) => prev + next, 0);
+    }
+    console.log(sumAll(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+    const numbers = Array.of(12, 4, 23, 62, 34);
+    console.log(numbers);
+</script>
+</body>
+</html>

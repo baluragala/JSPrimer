@@ -1,0 +1,41 @@
+Javascript Engine
+REPL -> Read Evaluate Print Loop
+
+Data Types:
+----------
+String 
+Number 
+Boolean 
+Array 
+Object 
+
+
+Day 2:
+------
+Understand scope and context
+ES6 Block scope
+    let and const
+    temporal dead zone
+ES6 Arrow functions
+    Arrow functions
+    Understand this in arrow functions
+    Default function args
+    When not to use arrow functions
+ES6 template strings
+
+Day 3:
+-----
+ES6 tagged templates
+ES6 Destructuring
+    Objects
+    Arrays
+ES6 Iterables and looping
+ES6 Array improvements
+ES6 Spread and Rest operator
+ES6 Object literal upgrades
+
+Day 4:
+-----
+ES6 Promises
+ES6 Classes
+ES6 Modules
