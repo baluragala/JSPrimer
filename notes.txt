@@ -39,3 +39,9 @@ Day 4:
 ES6 Promises
 ES6 Classes
 ES6 Modules
+
+Day 5:
+-----
+Types
+    annotation
+    inference
